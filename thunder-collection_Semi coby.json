@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Semi coby",
+    "dateExported": "2023-05-03T07:22:09.760Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e206bc4c-7f7d-40b8-b0f1-9070176cfd9c",
+            "colId": "355f8de7-02a1-4816-8c12-8789b7fdf627",
+            "containerId": "",
+            "name": "http://localhost:4000/users",
+            "url": "http://localhost:4000/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-03T07:14:25.238Z",
+            "modified": "2023-05-03T07:14:25.238Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"it\",\n  \"firstName\": \"diane\",\n  \"lastName\": \"abella\",\n  \"role\": \"User\",\n  \"email\": \"diane007@gmail.com\",\n  \"password\": \"Sasdasd\",\n  \"confirmPassword\": \"Sasdasd\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "877ac946-c4ca-40bb-850f-cfdc2a11cfe8",
+            "colId": "355f8de7-02a1-4816-8c12-8789b7fdf627",
+            "containerId": "",
+            "name": "http://localhost:4000/users",
+            "url": "http://localhost:4000/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-05-03T07:15:52.888Z",
+            "modified": "2023-05-03T07:15:52.888Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1d948fa5-2f50-41b6-8263-05677fc12899",
+            "colId": "355f8de7-02a1-4816-8c12-8789b7fdf627",
+            "containerId": "",
+            "name": "http://localhost:4000/users/1",
+            "url": "http://localhost:4000/users/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-05-03T07:17:36.718Z",
+            "modified": "2023-05-03T07:17:36.718Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"it\",\n  \"firstName\": \"diane\",\n  \"lastName\": \"abella\",\n  \"role\": \"User\",\n  \"email\": \"diane007@gmail.com\",\n  \"password\": \"Sasdasd\",\n  \"confirmPassword\": \"Sasdasd\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "935f1297-72ac-4c6b-b566-5cb80c88dac2",
+            "colId": "355f8de7-02a1-4816-8c12-8789b7fdf627",
+            "containerId": "",
+            "name": "http://localhost:4000/users/2",
+            "url": "http://localhost:4000/users/2",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-05-03T07:20:30.530Z",
+            "modified": "2023-05-03T07:20:30.530Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"hm\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4c00030a-4182-4d3b-8d2d-b6ad35d7e60f",
+            "colId": "355f8de7-02a1-4816-8c12-8789b7fdf627",
+            "containerId": "",
+            "name": "http://localhost:4000/users/2",
+            "url": "http://localhost:4000/users/2",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-05-03T07:21:24.318Z",
+            "modified": "2023-05-03T07:21:24.318Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
